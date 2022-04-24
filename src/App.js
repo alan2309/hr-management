@@ -1,20 +1,11 @@
-import {Navbar, JobCard} from './components';
-import {Row,Col} from "react-bootstrap";
+import {Navbar} from './components';
+import {HomeScreen} from './screens';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div style={{padding:"0px 0 0 70px"}}>
-      <Row>
-        <Col md={6}><JobCard/></Col>
-        <Col md={5}><JobCard/></Col>
-        <Col md={6}><JobCard/></Col>
-        <Col md={5}><JobCard/></Col>
-      </Row>
-      </div>
-      Remember:-
-      Change font everywhere
+      <HomeScreen/>
     </div>
   );
 }

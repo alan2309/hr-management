@@ -15,9 +15,9 @@ const Navbar = () => {
           <img src={Vector39} alt="logo"/>
         </div>
         <div className="gpt3__navbar-links_container">
-          <p><a style={{textDecoration:"none",fontSize:"25px"}} href="#home">Home</a></p>
-          <p><a style={{textDecoration:"none",fontSize:"25px"}} href="#wgpt3">Find Jobs</a></p>
-          <p><a style={{textDecoration:"none",fontSize:"25px"}} href="#possibility">Find Candidates</a></p>
+          <p><a style={{color:"black", textDecoration:"none",fontWeight:"500", fontSize:"25px"}} href="#home">Home</a></p>
+          <p><a style={{color:"black",textDecoration:"none",fontWeight:"500", fontSize:"25px"}} href="#wgpt3">Find Jobs</a></p>
+          <p><a style={{color:"black",textDecoration:"none",fontWeight:"500", fontSize:"25px"}} href="#possibility">Find Candidates</a></p>
         </div>
       </div>
       <div style={{marginTop:"15px"}} className="gpt3__navbar-sign">

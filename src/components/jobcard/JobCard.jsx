@@ -11,6 +11,7 @@ function JobCard() {
         </Row>
         <h2 className='job_desc_title'>Job Description:</h2>
         <p className='job_desc'>Work on image processing algorithm implementation required for Machine Learning & Computer Vision. Work on image classification, segmentation, and feature extraction.</p>
+        <button type='button' className="job_apply_button">Apply Now</button>
     </div>
   )
 }
