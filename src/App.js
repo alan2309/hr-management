@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {Navbar, JobCard} from './components';
+import {Row,Col} from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <div style={{padding:"0px 0 0 70px"}}>
+      <Row>
+        <Col md={6}><JobCard/></Col>
+        <Col md={5}><JobCard/></Col>
+        <Col md={6}><JobCard/></Col>
+        <Col md={5}><JobCard/></Col>
+      </Row>
+      </div>
+      Remember:-
+      Change font everywhere
     </div>
   );
 }
