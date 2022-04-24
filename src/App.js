@@ -1,11 +1,13 @@
 import {Navbar} from './components';
-import {HomeScreen} from './screens';
+import {Details} from './screens';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <HomeScreen/>
+      <Details/>
+      Remember:-
+      Change font everywhere
     </div>
   );
 }

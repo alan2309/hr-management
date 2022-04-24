@@ -21,8 +21,6 @@ function HomeScreen() {
         <Col style={{padding:" 0 30px"}} ls={5}><JobCard/></Col>
       </Row>
       </div>
-      Remember:-
-      Change font everywhere
     </div>
   )
 }
